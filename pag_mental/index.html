@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MENTAL</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="navbar navbar-bg">
+    <div class="navbar-content">
+      <button class="menu-btn" id="menu-btn">☰</button>
+      <h1 class="navbar-title">
+        <a href="#apresentation">Dia da Saúde Jovem</a>
+      </h1>
+    </div>
+  </header>
+
+  <!-- Overlay -->
+  <div id="offcanvas-overlay"></div>
+
+  <aside class="offcanvas" id="offcanvas">
+    <button class="close-btn" id="close-btn">×</button>
+    <nav>
+      <h4 class="offcanvas-subtitle">SEÇÕES</h4>
+      <ul>
+        <li><a href="#hero">Apresentação</a></li>
+        <li><a href="#explicacao">O que é?</a></li>
+        <li><a href="#jornada">Jornada</a></li>
+      </ul>
+    </nav>
+
+    <hr class="offcanvas-divider">
+
+    <h4 class="offcanvas-subtitle">Outras páginas</h4>
+    <nav>
+      <ul class="offcanvas-pages">
+        <li><a href="/home/index.html"> Início </a></li>
+        <li><a href="/pag_fisico/fisico.html">Saúde Física</a></li>
+        <li><a href="/pag_creditos/creditos.html">Créditos</a></li>
+      </ul>
+    </nav>
+
+    <div class="offcanvas-footer">
+      <span>© 2025 Dia da Saúde Jovem</span>
+    </div>
+  </aside>
+
+  <!-- HERO -->
+  <section id="hero" class="section-web mental-hero">
+    <div class="hero-visual">
+      <div class="circles">
+        <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+        <div class="circle circle3"></div>
+      </div>
+      <img src="img_icon/cerebro.png" alt="Saúde Mental" class="hero-icon">
+    </div>
+
+    <div class="hero-text">
+      <h2 class="hero-title">Saúde Mental</h2>
+      <p class="hero-subtitle">Equilíbrio emocional e bem-estar para uma vida mais saudável.</p>
+    </div>
+  </section>
+
+  <!-- Explicação + Dicas -->
+  <section id="explicacao" class="section-web mental-explicacao">
+    <div class="main-content">
+      <h2>O que é Saúde Mental?</h2>
+      <p>
+        Saúde mental não é apenas ausência de transtornos, mas a capacidade de viver de forma equilibrada,
+        lidar com emoções e desafios, e manter relações saudáveis.
+      </p>
+      <div class="mental-box">
+        <strong>Dica:</strong> Buscar ajuda profissional não é sinal de fraqueza, mas de autocuidado.
+      </div>
+
+      <!-- Dicas embutidas -->
+      <div class="mental-dicas">
+        <h2>Dicas para cuidar da sua mente</h2>
+
+        <div class="dicas-grid">
+          <div class="tip">
+            <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="Sono">
+            <div>
+              <h3>Durma bem</h3>
+              <p>O descanso adequado ajuda a equilibrar o corpo e a mente.</p>
+              <div class="tip-extra">
+                Dormir entre 7 e 9 horas por noite é fundamental para restaurar a energia do corpo e da mente. <br>
+                👉 Dica prática: mantenha horários regulares e evite telas antes de dormir.
+              </div>
+            </div>
+          </div>
+
+          <div class="tip">
+            <img src="https://cdn-icons-png.flaticon.com/512/3845/3845824.png" alt="Exercício">
+            <div>
+              <h3>Pratique exercícios</h3>
+              <p>Movimentar o corpo libera hormônios que reduzem o estresse.</p>
+              <div class="tip-extra">
+                A prática regular de atividade física estimula hormônios de prazer e bem-estar. <br>
+                👉 Dica prática: 30 minutos de caminhada já ajudam bastante.
+              </div>
+            </div>
+          </div>
+
+          <div class="tip">
+            <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" alt="Conversa">
+            <div>
+              <h3>Converse</h3>
+              <p>Compartilhar sentimentos fortalece laços e alivia a mente.</p>
+              <div class="tip-extra">
+                Conversar reduz a sobrecarga mental e cria conexões de apoio. <br>
+                👉 Dica prática: escolha alguém de confiança e se permita ser ouvido.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <!-- Frase -->
+  <section class="mental-frase">
+    <div class="main-content">
+      <blockquote>
+        “Cuidar da mente é tão importante quanto cuidar do corpo.”
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- CTA Diferenciado -->
+  <section id="jornada" class="section-web mental-cta">
+    <div class="main-content">
+      <h2>Continue sua jornada de cuidado</h2>
+      <p>Explore recursos que podem apoiar seu equilíbrio emocional e mental.</p>
+
+      <div class="cta-flex">
+        <div class="cta-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/706/706164.png" alt="Saúde Física" class="cta-icon">
+          <h3>Saúde Física</h3>
+          <p>Cuide do corpo para fortalecer também sua mente.</p>
+          <a href="/pag_fisico/fisico.html" class="cta-btn">Explorar</a>
+        </div>
+
+        <div class="cta-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/942/942748.png" alt="ONGs" class="cta-icon">
+          <h3>ONGs</h3>
+          <p>Encontre apoio em instituições dedicadas à saúde mental.</p>
+          <a href="https://www.cvv.org.br/" target="_blank" class="cta-btn">Acessar</a>
+        </div>
+
+        <div class="cta-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/2995/2995467.png" alt="Leitura" class="cta-icon">
+          <h3>Leitura</h3>
+          <p>Artigos e guias que podem inspirar novas práticas.</p>
+          <a href="https://vitaalere.com.br/" target="_blank" class="cta-btn">Ver Mais</a>
+        </div>
+
+        <div class="cta-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/4052/4052984.png" alt="Ferramentas" class="cta-icon">
+          <h3>Ferramentas</h3>
+          <p>Apps e exercícios para incluir no dia a dia.</p>
+          <a href="https://www.headspace.com/" target="_blank" class="cta-btn">Experimentar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+<footer>
+    <p>&copy; 2025 - GuguEnricoSoft. Todos os direitos reservados.</p>
+</footer>
+
+
+</html>

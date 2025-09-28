@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde Física - Dia da Saúde Jovem</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="fisico.css">
+</head>
+
+<body>
+    <header class="navbar navbar-bg">
+        <div class="navbar-content">
+            <button class="menu-btn" id="menu-btn">☰</button>
+            <h1 class="navbar-title">
+                <a href="index.html">Dia da Saúde Jovem</a>
+            </h1>
+        </div>
+    </header>
+
+    <div id="offcanvas-overlay"></div>
+
+    <aside class="offcanvas" id="offcanvas">
+        <button class="close-btn" id="close-btn">×</button>
+        <nav>
+            <h4 class="offcanvas-subtitle">SEÇÕES</h4>
+            <ul>
+                <li><a href="index.html#intro">Introdução</a></li>
+                <li><a href="index.html#about">Sobre</a></li>
+            </ul>
+        </nav>
+
+        <hr class="offcanvas-divider">
+
+        <h4 class="offcanvas-subtitle">Outras páginas</h4>
+        <nav>
+            <ul class="offcanvas-pages">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="mental.html">Saúde Mental</a></li>
+            </ul>
+        </nav>
+
+        <div class="offcanvas-footer">
+            <span>© 2025 Dia da Saúde Jovem</span>
+        </div>
+    </aside>
+
+    <main>
+        <section class="section-web">
+            <div class="main-content page-header">
+                <h2 class="page-title">Pilares da Saúde Física</h2>
+                <p class="page-subtitle">
+                    Construir um corpo forte e uma mente resiliente começa com hábitos diários. Explore os três pilares
+                    fundamentais que sustentam seu bem-estar e vitalidade.
+                </p>
+                <div class="page-divider"></div>
+            </div>
+
+            <div class="main-content content-grid">
+
+                <div class="info-card">
+                    <div class="card-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3050/3050221.png"
+                            alt="Ícone de maçã e cenoura">
+                    </div>
+                    <h3 class="card-title">Alimentação Consciente</h3>
+                    <p class="card-text">
+                        Nutrir seu corpo é o primeiro passo. Uma dieta balanceada fornece a energia e os nutrientes
+                        necessários para
+                        todas as suas atividades.
+                    </p>
+                    <ul class="card-list">
+                        <li>Priorize alimentos naturais e integrais.</li>
+                        <li>Beba bastante água durante o dia.</li>
+                        <li>Reduza o consumo de açúcar e ultraprocessados.</li>
+                        <li>Equilibre pratos com proteínas, carboidratos e gorduras boas.</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2964/2964514.png"
+                            alt="Ícone de pessoa correndo">
+                    </div>
+                    <h3 class="card-title">Movimento é Vida</h3>
+                    <p class="card-text">
+                        O corpo humano foi feito para se mover. A atividade física regular fortalece o coração, os
+                        músculos e a
+                        mente.
+                    </p>
+                    <ul class="card-list">
+                        <li>Combine exercícios aeróbicos com musculação.</li>
+                        <li>Encontre uma atividade que você realmente goste.</li>
+                        <li>Alongue-se para melhorar a flexibilidade.</li>
+                        <li>A consistência é mais importante que a intensidade.</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-icon">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3890/3890142.png"
+                            alt="Ícone de lua e estrelas">
+                    </div>
+                    <h3 class="card-title">Descanso Reparador</h3>
+                    <p class="card-text">
+                        O sono não é um luxo, é uma necessidade. É durante o descanso que seu corpo se recupera,
+                        consolida memórias
+                        e se prepara para o dia seguinte.
+                    </p>
+                    <ul class="card-list">
+                        <li>Durma de 7 a 9 horas por noite.</li>
+                        <li>Crie um ambiente escuro, silencioso e confortável.</li>
+                        <li>Desconecte-se de telas uma hora antes de dormir.</li>
+                        <li>Mantenha horários regulares para deitar e levantar.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+        <section class="section-web">
+            <div class="main-content">
+                <div class="hydration-section">
+                    <div class="text-content">
+                        <h3 class="section-title">O Poder da Hidratação</h3>
+                        <p>A água é essencial para quase todas as funções do seu corpo, desde regular a temperatura até
+                            transportar nutrientes. Manter-se hidratado melhora sua energia, sua pele e sua concentração.
+                        </p>
+                        <ul class="tips-list">
+                            <li><strong>Comece o Dia com Água:</strong> Beba um copo grande de água assim que acordar para
+                                reidratar o corpo.</li>
+                            <li><strong>Tenha uma Garrafa por Perto:</strong> Manter a água visível e acessível é o melhor
+                                lembrete para beber mais.</li>
+                            <li><strong>Dê Sabor à sua Água:</strong> Adicione rodelas de limão, pepino ou folhas de hortelã
+                                para uma bebida refrescante sem calorias.</li>
+                            <li><strong>Coma Alimentos Ricos em Água:</strong> Frutas como melancia e morango, e vegetais
+                                como pepino, também contribuem para sua hidratação.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-web">
+            <div class="main-content content-grid">
+                <div class="info-card">
+                <div class="card">
+                    <div class="posture-section">
+                        <div class="posture-image">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3048/3048259.png"
+                                alt="Ícone de pessoa sentada com postura correta">
+                        </div>
+                        <div class="card-text">
+                            <h3 class="card-title">Postura no Dia a Dia</h3>
+                            <p>Uma boa postura protege sua coluna, previne dores e até melhora sua respiração e confiança. Fique
+                                atento a estes detalhes durante o dia:</p>
+                            <ul class="card-list">
+                                <li><strong>No Computador:</strong> Mantenha o topo do monitor na altura dos olhos e os pés
+                                    apoiados
+                                    no chão.</li>
+                                <li><strong>Usando o Celular:</strong> Em vez de curvar o pescoço para baixo, levante o celular
+                                    até
+                                    a altura do rosto.</li>
+                                <li><strong>Levante-se e Alongue:</strong> Faça pausas a cada 30-60 minutos para caminhar um
+                                    pouco e
+                                    esticar o corpo.</li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="main-content">
+            <div class="consistency-card">
+                <h4>O Segredo é a Consistência</h4>
+                <p>Resultados duradouros não vêm de grandes esforços feitos uma única vez, mas de pequenos hábitos repetidos
+                    todos os dias. Se você falhar um dia, não desista. O importante é voltar à rotina no dia seguinte. O
+                    progresso, por menor que seja, ainda é progresso!</p>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="quick-tip-box">
+                <div class="tip-icon">💡</div>
+                <div class="tip-content">
+                    <h4>Dica Rápida</h4>
+                    <p>Troque o elevador pelas escadas! É uma forma simples de adicionar mais movimento ao seu dia,
+                        queimar
+                        calorias e fortalecer suas pernas e coração.</p>
+                </div>
+            </div>
+        </div>
+        <section class="section-web cta-section">
+            <div class="main-content">
+                <h2 class="page-title">Sua Jornada Começa Agora</h2>
+                <p class="page-subtitle">
+                    Você não precisa mudar tudo de uma vez. Escolha um pequeno hábito hoje — beber um copo de água a
+                    mais, fazeruma caminhada de 10 minutos, dormir 15 minutos mais cedo. O primeiro passo é o mais importante.
+                </p>
+                <a href="#top" class="cta-button">Voltar ao Topo</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
+
+
+css
+
+
+/* Estilos para o cabeçalho da página de Saúde Física */
+.page-header {
+    text-align: center;
+    padding-top: 15rem; /* Espaço para não ficar atrás do navbar */
+    padding-bottom: 2rem;
+}
+
+.page-title {
+    font-size: 5rem;
+    color: var(--color-accent1); /* Usa a cor de destaque do site */
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.page-subtitle {
+    font-size: 2rem;
+    color: var(--color-text-secondary); /* Usa a cor de texto secundário */
+    max-width: 70ch;
+    margin: 0 auto 3rem auto;
+}
+
+.page-divider {
+    width: 15rem;
+    height: 0.4rem;
+    background: linear-gradient(90deg, var(--color-accent1), var(--color-accent2)); /* Gradiente com as cores de destaque */
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+/* Grid para organizar os cards de conteúdo */
+.content-grid {
+    display: flex;           
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: var(--gap); /* Usa a variável de espaçamento global */
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+
+/* Estilo individual de cada card de informação */
+.info-card {
+    background: var(--color-navbar); /* Fundo escuro, harmônico com o site */
+    padding: 3rem;
+    border-radius: 1.2rem; /* Bordas arredondadas */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0.4rem 1.5rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+/* Efeito interativo ao passar o mouse */
+.info-card:hover {
+    transform: translateY(-0.8rem); /* Efeito de "levantar" */
+    box-shadow: 0 0.8rem 2.5rem rgba(0, 0, 0, 0.3);
+    border-color: var(--color-accent1); /* Borda fica com a cor de destaque */
+}
+
+/* Ícone dentro do card */
+.card-icon {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card-icon img {
+    width: 7rem;
+    height: 7rem;
+    filter: brightness(0) saturate(100%) invert(82%) sepia(26%) saturate(1313%) hue-rotate(113deg) brightness(87%) contrast(87%); /* Colore o ícone com a cor --color-accent1 */
+}
+
+/* Título e texto do card */
+.card-title {
+    color: var(--color-text);
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.card-text {
+    color: var(--color-text-secondary);
+    font-size: 1.8rem;
+    text-align: center;
+    flex-grow: 1; /* Faz o texto ocupar o espaço e empurrar a lista para baixo */
+}
+
+/* Lista de dicas dentro do card */
+.card-list {
+    list-style: none;
+    padding-left: 1.5rem;
+    margin-top: 2rem;
+}
+
+.card-list li {
+    font-size: 1.7rem;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+/* Adiciona um marcador personalizado (efeito de "check") */
+.card-list li::before {
+    content: '✓';
+    position: absolute;
+    left: -1.5rem;
+    color: var(--color-accent1);
+    font-weight: bold;
+}
+
+/* ========================================= */
+/* CSS PARA AS NOVAS SEÇÕES                  */
+/* ========================================= */
+
+/* --- Estilos da Calculadora de IMC --- */
+.calculator-container {
+    background-color: var(--color-navbar);
+    padding: 4rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.imc-form {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.imc-input {
+    background-color: var(--color-bg);
+    border: 1px solid var(--color-text-secondary);
+    color: var(--color-text);
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+    font-size: 1.8rem;
+    text-align: center;
+    width: 25rem;
+}
+
+.imc-button {
+    background-color: var(--color-accent1);
+    color: var(--color-bg);
+    border: none;
+    padding: 1.5rem 3rem;
+    border-radius: 0.8rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.imc-button:hover {
+    background-color: #2aabb3;
+}
+
+.imc-result {
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: var(--color-text);
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    border-radius: 0.8rem;
+    display: none; /* Só aparece depois de calcular */
+    line-height: 1.6;
+}
+
+/* --- Estilos da Dica Rápida --- */
+.quick-tip-box {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: #ffffe4; /* Fundo claro para contraste */
+    color: var(--color-bg);
+    padding: 2.5rem;
+    border-radius: 1.2rem;
+    border-left: 8px solid var(--color-accent2); /* Usa a cor de destaque 2 */
+    margin: 4rem 0;
+}
+
+.tip-icon {
+    font-size: 4rem;
+}
+
+.tip-content h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.tip-content p {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    color: #555;
+}
+
+/* --- Estilos da Seção de Motivação (CTA) --- */
+.cta-section {
+    background-color: var(--color-navbar);
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--color-accent2); /* Cor laranja para destaque */
+    color: var(--color-bg);
+    padding: 1.5rem 4rem;
+    border-radius: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 2rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    background-color: #ffae40;
+}
+
+/* ========================================= */
+/* CSS PARA AS NOVAS DICAS                   */
+/* ========================================= */
+
+/* --- Estilo Geral para Títulos e Listas das Novas Seções --- */
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-accent1);
+    font-size: clamp(2.8rem, 4vw, 3.5rem); /* Fonte fluida */
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--color-navbar);
+}
+
+.tips-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.tips-list li {
+    font-size: 1.8rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 1.5rem;
+    padding-left: 2.5rem;
+    position: relative;
+}
+
+.tips-list li::before {
+    content: '›'; /* Símbolo de seta */
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: var(--color-accent1);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tips-list li strong {
+    color: var(--color-text);
+}
+
+
+/* --- Seção de Hidratação --- */
+.hydration-section {
+    background: var(--color-bg); /* Fundo um pouco diferente para destaque */
+    padding: 3rem;
+    border-radius: 1.2rem;
+}
+
+
+/* --- Seção de Postura (Layout de 2 Colunas) --- */
+.posture-section {
+    display: flex;
+    flex-wrap: wrap; /* Para telas pequenas */
+    align-items: center;
+    gap: var(--gap);
+    background: var(--color-navbar);
+    padding: 3rem;
+    border-radius: 1.2rem;
+}
+
+.posture-image {
+    flex: 1 1 20rem; /* Ocupa espaço, mas pode encolher */
+    text-align: center;
+}
+
+.posture-image img {
+    max-width: 15rem;
+    filter: invert(83%) sepia(21%) saturate(1458%) hue-rotate(113deg) brightness(88%) contrast(85%); /* Colore o ícone com o tom de --color-accent1 */
+}
+
+.posture-section .text-content {
+    flex: 2 1 40rem; /* Ocupa mais espaço */
+}
+
+/* --- Card de Consistência --- */
+.consistency-card {
+    background: transparent;
+    border: 2px solid var(--color-accent2); /* Usa a cor de destaque secundária */
+    color: var(--color-text);
+    padding: 2.5rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.consistency-card h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-accent2);
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.consistency-card p {
+    font-size: 1.8rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 0;
+}

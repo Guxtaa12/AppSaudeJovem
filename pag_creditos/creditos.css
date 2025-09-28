@@ -1,0 +1,100 @@
+/* Estilos para o cabeçalho da página (reutiliza o de outras páginas) */
+
+.credits-list li a,
+.credits-list li a:link {
+    color: var(--color-text); /* Usa a cor de texto principal do site */
+    text-decoration: none;    /* Remove o sublinhado */
+    transition: color 0.3s ease; /* Efeito suave na troca de cor */
+}
+
+/* Estado :hover (quando o mouse passa por cima) */
+.credits-list li a:hover {
+    color: var(--color-accent1); /* Muda para a cor de destaque 1 (verde) */
+    text-decoration: underline; /* Adiciona sublinhado para feedback */
+}
+
+/* Estado :visited (depois que o link foi clicado/visitado) */
+.credits-list li a:visited {
+    color: var(--color-text-secondary); /* Muda para a cor de texto secundário (cinza claro) */
+}
+
+/* Estado :active (enquanto o link está sendo pressionado) */
+.credits-list li a:active {
+    color: var(--color-accent2); /* Muda para a cor de destaque 2 (laranja) para feedback instantâneo */
+}
+
+.page-header {
+    text-align: center;
+    padding-top: 15rem;
+    padding-bottom: 2rem;
+}
+
+.page-title {
+    font-size: 5rem;
+    color: var(--color-accent1);
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.page-subtitle {
+    font-size: 2rem;
+    color: var(--color-text-secondary);
+    max-width: 70ch;
+    margin: 0 auto 3rem auto;
+}
+
+.page-divider {
+    width: 15rem;
+    height: 0.4rem;
+    background: linear-gradient(90deg, var(--color-accent1), var(--color-accent2));
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+
+/* Lista de nomes dos alunos */
+.credits-list {
+    list-style: none;
+    padding: 0;
+    margin: 6rem auto;
+    max-width: 60rem;
+}
+
+.credits-list li {
+    background-color: var(--color-navbar);
+    color: var(--color-text);
+    font-size: 2.2rem;
+    padding: 1.5rem 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.8rem;
+    border-left: 5px solid var(--color-accent1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.credits-list li:hover {
+    transform: translateX(10px);
+    background-color: #2C4A57;
+}
+
+
+/* Informações da Universidade */
+.university-info {
+    margin-top: 8rem;
+    padding-top: 4rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.university-title {
+    color: var(--color-text-secondary);
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.university-name {
+    color: var(--color-accent2);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 0;
+}

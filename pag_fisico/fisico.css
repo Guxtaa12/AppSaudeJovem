@@ -1,0 +1,283 @@
+/* Estilos para o cabeçalho da página de Saúde Física */
+.page-header {
+    text-align: center;
+    padding-top: 15rem;
+    padding-bottom: 2rem;
+}
+
+.page-title {
+    font-size: 5rem;
+    color: var(--color-accent1);
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.page-subtitle {
+    font-size: 2rem;
+    color: var(--color-text-secondary);
+    max-width: 70ch;
+    margin: 0 auto 3rem auto;
+}
+
+.page-divider {
+    width: 15rem;
+    height: 0.4rem;
+    background: linear-gradient(90deg, var(--color-accent1), var(--color-accent2));
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+/* Grid para organizar TODOS os cards de conteúdo */
+.content-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--gap);
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+
+/* ========================================= */
+/* ESTILO ÚNICO E REUTILIZÁVEL PARA OS CARDS */
+/* ========================================= */
+.info-card {
+    background: var(--color-navbar);
+    padding: 3rem;
+    border-radius: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0.4rem 1.5rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    flex: 1 1 32rem; /* Permite que os cards cresçam e quebrem a linha */
+    max-width: 38rem; /* Garante que não fiquem largos demais */
+}
+
+.info-card:hover {
+    transform: translateY(-0.8rem);
+    box-shadow: 0 0.8rem 2.5rem rgba(0, 0, 0, 0.3);
+    border-color: var(--color-accent1);
+}
+
+.card-icon {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card-icon img {
+    width: 7rem;
+    height: 7rem;
+    filter: brightness(0) saturate(100%) invert(82%) sepia(26%) saturate(1313%) hue-rotate(113deg) brightness(87%) contrast(87%);
+}
+
+.card-title {
+    color: var(--color-text);
+    font-size: 2.8rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    min-height: 6.5rem; /* Garante que títulos com 1 ou 2 linhas tenham a mesma altura */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text {
+    color: var(--color-text-secondary);
+    font-size: 1.8rem;
+    text-align: center;
+    flex-grow: 1; /* Empurra a lista (se houver) para baixo */
+    margin-bottom: 2rem;
+}
+
+.card-list {
+    list-style: none;
+    padding-left: 1.5rem;
+    margin-top: auto; /* Alinha a lista na base do card */
+    text-align: left;
+}
+
+.card-list li {
+    font-size: 1.7rem;
+    color: var(--color-text);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.card-list li::before {
+    content: '✓';
+    position: absolute;
+    left: -1.5rem;
+    color: var(--color-accent1);
+    font-weight: bold;
+}
+
+
+/* ========================================= */
+/* ESTILOS DA SEÇÃO FINAL (CALL TO ACTION)   */
+/* ========================================= */
+.cta-section {
+    background-color: var(--color-navbar);
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--color-accent2);
+    color: var(--color-bg);
+    padding: 1.5rem 4rem;
+    border-radius: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 2rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    background-color: #ffae40;
+}
+
+/* ========================================= */
+/*       CTA NOVAAAAAAAAAAAAAAAAAAAAA        */
+/* ========================================= */
+
+.mental-cta {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  padding: 6rem 2rem;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.mental-cta h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--color-accent1);
+}
+
+.mental-cta p {
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  color: #ccc;
+}
+
+.cta-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.cta-item {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  flex: 1 1 22rem;
+  max-width: 25rem;
+  padding: 3rem 2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  backdrop-filter: blur(6px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.cta-item:hover {
+  transform: translateY(-0.6rem);
+  box-shadow: 0 1rem 2.5rem rgba(0,0,0,0.35);
+  border: 1px solid var(--color-accent1);
+}
+
+.cta-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1.2rem;
+  filter: drop-shadow(0 0 6px rgba(0,0,0,0.4));
+  transition: transform 0.3s ease;
+}
+
+.cta-item:hover .cta-icon {
+  transform: scale(1.15);
+}
+
+.cta-item h3 {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  color: var(--color-accent2);
+}
+
+.cta-item p {
+  font-size: 1.4rem;
+  margin-bottom: 1.8rem;
+  color: #e0e0e0;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 0.9rem 1.6rem;
+  border-radius: 0.6rem;
+  background: var(--color-accent1);
+  color: #0f2027;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.cta-btn:hover {
+  background: var(--color-accent2);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* --- Estilos da Dica Rápida --- */
+.quick-tip-box {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: #ffffe4; /* Fundo claro para contraste */
+    color: var(--color-bg);
+    padding: 2.5rem;
+    border-radius: 1.2rem;
+    border-left: 8px solid var(--color-accent2); /* Usa a cor de destaque 2 */
+    margin: 4rem 0;
+}
+
+.tip-icon {
+    font-size: 4rem;
+}
+
+.tip-content h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.tip-content p {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    color: #555;
+}
+
+/* --- Card de Consistência --- */
+.consistency-card {
+    background: transparent;
+    border: 2px solid var(--color-accent2); /* Usa a cor de destaque secundária */
+    color: var(--color-text);
+    padding: 2.5rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.consistency-card h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-accent2);
+    font-size: 2.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.consistency-card p {
+    font-size: 2.0rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 0;
+}
+
